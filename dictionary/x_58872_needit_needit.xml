@@ -17,6 +17,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal1" label="What Needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
             <choice>
+                <element label="Other" value="other"/>
                 <element label="Facilities 1" sequence="0" value="facilities1"/>
                 <element label="Facilities 2" sequence="1" value="facilities2"/>
                 <element label="Legal 1" sequence="2" value="legal1"/>
